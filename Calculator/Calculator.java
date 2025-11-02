@@ -24,7 +24,7 @@ public class Calculator {
         result = (operator == '+') ? (number1 + number2)
                 : (operator == '*') ? (number1 * number2)
                 : (operator == '/' ?
-                    (number2 != 0 ? (number1 / number2) : Double.NaN)
+                    (number2 != 0 ? ((double) number1 / number2) : Double.NaN)
                 : Double.NaN);
 
         if (Double.isNaN(result)) {

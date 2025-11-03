@@ -1,4 +1,4 @@
-# 🧩 Day 12 – Grade Checker
+# 🧩 3 – Grade Checker
 
 A simple Java program that takes a student's score (0–20), determines if they passed or failed,  
 and assigns a corresponding letter grade (A–F).

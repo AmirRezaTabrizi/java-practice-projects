@@ -1,4 +1,4 @@
-# 🔁 Day 3 – Loops Practice (Sum & Guess Game)
+# 🔁 Day 4 – Loops Practice (Sum & Guess Game)
 
 Two small Java console programs to practice **loops** and **conditionals**.
 

@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class AverageGrades {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        double[] grades = new double[5];
+        double sum = 0;
+
+        System.out.println("=== Day 14 – Average of 5 Grades ===");
+
+        for (int i = 0; i < grades.length; i++) {
+            System.out.print("Enter grade " + (i + 1) + ": ");
+            grades[i] = scanner.nextDouble();
+            sum += grades[i];
+        }
+
+        double average = sum / grades.length;
+        System.out.println("Average grade: " + average);
+        scanner.close();
+    }
+}
